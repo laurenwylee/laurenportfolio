@@ -29,6 +29,12 @@ export default function Courses() {
                 <CourseDropDown courseName="CPSC 202: Mathematical Tools for Computer Science (Discrete Math)" />
                 <CourseDropDown courseName="CPSC 223: Data Structures and Programming Techniques" courseLanguages={["C", "C++"]} courseProjects={[]}/>
             </div>
+        {/* <h2 className="font-bold mb-2 mt-4 text-2xl">Anthropology</h2>
+          <div className="space-y-2">
+              <CourseDropDown courseName="ANTH 2844: Modern Southeast Asia" />
+              <CourseDropDown courseName="AMST 371: Food, Race, and Migration in United States Society"/>
+              <CourseDropDown courseName="ANTH 4120: Islam and Communist Modernities in Central Asia and Xinjiang" />
+          </div> */}
 
         <h2 className="font-bold mt-8 mb-2 text-3xl">Stuyvesant High School Courses</h2>
         <ul className="space-y-2">
